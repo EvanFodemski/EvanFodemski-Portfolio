@@ -1,7 +1,7 @@
 export default function Header() {
-    return(
+    return (
         <header>
-            <h2>Evan Fodemski</h2>
+            <h1>Evan Fodemski</h1>
         </header>
-    );
+    )
 }
