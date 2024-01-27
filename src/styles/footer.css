@@ -1,0 +1,15 @@
+.socialLinks {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+.socialLinks.svg:hover{
+    width: 80px;
+    height: 80px;
+}

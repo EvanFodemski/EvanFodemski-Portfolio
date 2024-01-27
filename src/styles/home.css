@@ -1,0 +1,103 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intromain{
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+}
+.introwords1{
+    font-size: 40px;
+}
+
+.intro2{
+    font-size: 110px;
+    color: #000;
+    cursor: pointer;
+    font-weight: 550;
+    transition: 0.5s ease-out;
+
+}
+
+
+.intro2:hover{
+    font-size: 140px;
+    transition: 0.5s ease-out;
+    font-weight: 800;
+    color: hsl(45 100% 70%);
+
+}
+.intro2::after{
+    transition: .5s ease-out;
+}
+
+
+
+.hello {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+    font-size: 75px;
+    cursor: pointer;
+  }
+  
+  .hello::before {
+    background: hsl(45 100% 70%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .hello:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+
+ 
+
+  .afull {
+    position: relative;
+    text-decoration: none;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .afull::before {
+    background: hsl(45 100% 70%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .afull:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  .aboutme{
+    width: 200px;
+    height: 60px;
+    border-radius:20px;
+    margin-top: 2rem;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+  }
+  .aboutme:hover {
+    width:240px;
+    height: 80px;
+    font-size: 25px;
+    background-color: #CFDBDC;
+  }
