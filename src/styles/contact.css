@@ -1,0 +1,90 @@
+.conTop{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    border-bottom: dotted;
+    transition: .4s ease-out;
+
+  
+}
+.conTop:hover{
+    font-size: 35px;
+ 
+}
+
+.getBack{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  button{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    z-index: 2;
+  }
+  
+  
+  button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+
+    background: white;
+    transition: all .35s;
+    z-index: -1;
+  }
+  
+  button:hover{
+    color: black;
+  }
+  
+  button:hover:after{
+    width: 100%;
+  }
+  
+ 
+  
+
+  

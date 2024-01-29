@@ -1,9 +1,26 @@
 .p1{
     font-size: 25px;
-    max-width: 50%;
+    max-width: 43%;
+    transition: 0.2s ease-out;
+
 }
 
 .p2{
     font-size: 25px;
+    max-width: 43%;
+    transition: 0.2s ease-out;
+    margin-bottom: 5%;
+   
+}
+
+.p1:hover{
+    font-size: 27px;
+    max-width: 50%;
+    font-weight: 600;
+}
+
+.p2:hover{
+    font-size: 27px;
+    font-weight: 600;
     max-width: 50%;
 }

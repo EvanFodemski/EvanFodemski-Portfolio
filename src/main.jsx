@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import About from "./components/aboutMe";
 import Home from "./components/home";
+import ContactForm from "./components/contact";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,11 @@ const router = createBrowserRouter([
       {
         path:"about",
         element: <About />
-      }
+      },
+      {
+        path:"contact",
+        element: <ContactForm />
+      },
     ]
   }
     

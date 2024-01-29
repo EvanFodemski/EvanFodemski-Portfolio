@@ -87,17 +87,10 @@
   .aboutme{
     width: 200px;
     height: 60px;
-    border-radius:20px;
     margin-top: 2rem;
-    background-color: white;
     font-size: 20px;
     font-weight: 600;
     transition: 0.5s ease-out;
     cursor: pointer;
   }
-  .aboutme:hover {
-    width:240px;
-    height: 80px;
-    font-size: 25px;
-    background-color: #CFDBDC;
-  }
+
