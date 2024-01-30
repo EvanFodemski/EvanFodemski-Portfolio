@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import '../styles/header.css';
 import topLeft from '../assets/img/topleft.png';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    const toggleMenu = () => {
+    
+const location = useLocation();
+console.log(location.pathname)
+// {`navItems ${location.pathname === '/' && 'colorChange'}`}
+    
+const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
@@ -16,11 +20,11 @@ export default function Header() {
 
             {/* Desktop Menu */}
             <div className="desktopMenu">
-                <NavLink to="/" className="navItems">Home</NavLink>
-                <NavLink to="/about" className="navItems">About</NavLink>
-                <NavLink to="/portfolio" className="navItems">Portfolio</NavLink>
-                <NavLink to="/resume" className="navItems">Resume</NavLink>
-                <NavLink to="/contact" className="navItems">Contact</NavLink>
+                <NavLink to="/" className={location.pathname === '/' ? "navItems colorChange":"navItems"}>Home</NavLink>
+                <NavLink to="/about" className={`navItems ${location.pathname === '/about' && 'colorChange'}`}>About</NavLink>
+                <NavLink to="/portfolio" className={`navItems ${location.pathname === '/portfolio' && 'colorChange'}`}>Portfolio</NavLink>
+                <NavLink to="/resume" className={`navItems ${location.pathname === '/resume' && 'colorChange'}`}>Resume</NavLink>
+                <NavLink to="/contact" className={`navItems ${location.pathname === '/contact' && 'colorChange'}`}>Contact</NavLink>
             </div>
 
             {/* Mobile Menu */}
