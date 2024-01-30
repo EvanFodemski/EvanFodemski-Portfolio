@@ -10,9 +10,9 @@ export default function Home () {
             <span className="introwords1"> I'm <span class='intro2'>Evan</span><br /></span>
             <span className="afull">A Full Stack Web Developer.</span>
            </div>
-           <button className="aboutme">
+           {/* <button className="aboutme">
             More About me
-           </button>
+           </button> */}
         
 
         

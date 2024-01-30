@@ -2,7 +2,7 @@
     height: 5rem;
     width: 100vw;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
     display: flex;
     align-items: center;
     position: sticky;
@@ -33,5 +33,47 @@
     color: #2E3338;
 
 
+}
+
+
+.menuButton {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+.mobileMenu {
+    display: none; /* Hide mobile menu by default */
+}
+
+.mobileDropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem; 
+    width: 140px;
+    font-size: 25px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 4;
+}
+
+/* Media query for screens smaller than 600px */
+@media screen and (max-width: 800px) {
+    .desktopMenu {
+        display: none; /* Hide desktop menu on small screens */
+    }
+
+    .mobileMenu {
+        display: flex;
+        align-items: center;
+        float:left ;
+    }
+    .logo{
+        display: none
+        ;
+    }
 }
 

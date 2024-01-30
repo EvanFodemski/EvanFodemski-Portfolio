@@ -3,7 +3,7 @@
 }
 
 .intromain{
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     margin-top: 10rem;
 
 }
@@ -93,4 +93,25 @@
     transition: 0.5s ease-out;
     cursor: pointer;
   }
+
+
+  @media screen and (max-width: 800px) {
+
+   
+    .hello{
+      font-size: 35px;
+    
+    }
+
+    .introwords1{
+      font-size: 20px;
+  }
+  .intro2{
+    font-size: 50px;
+  }
+  .afull{
+    font-size: 20px;
+  }
+  
+}
 

@@ -24,3 +24,23 @@
     font-weight: 600;
     max-width: 50%;
 }
+.mapContainer {
+  height: "600px";
+  width: "50%";
+  float: "right" ;
+}
+
+
+@media screen and (max-width: 800px) {
+  .p1,
+  .p2 {
+    font-size: 15px;
+    max-width: 100%; /* Use 100% width for mobile */
+  }
+
+  .p1:hover,
+  .p2:hover {
+    font-size: 18px;
+  }
+
+}

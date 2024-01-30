@@ -1,0 +1,43 @@
+.conTop {
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    border-bottom: dotted;
+    transition: 0.4s ease-out;
+  }
+  
+  .conTop:hover {
+    font-size: 35px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+  }
+  
+  .detailGroup {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .details {
+      flex-direction: row;
+    }
+  
+    .detailGroup {
+      width: 50%;
+    }
+  }
+  

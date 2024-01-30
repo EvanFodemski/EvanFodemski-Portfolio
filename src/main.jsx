@@ -9,6 +9,8 @@ import App from "./App";
 import About from "./components/aboutMe";
 import Home from "./components/home";
 import ContactForm from "./components/contact";
+import Portfolio from "./components/port";
+import Resume from "./components/resume";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
         path:"contact",
         element: <ContactForm />
       },
+      {
+        path:"portfolio",
+        element: <Portfolio />
+      },
+      {
+        path: "resume",
+        element: <Resume />
+      }
     ]
   }
     
