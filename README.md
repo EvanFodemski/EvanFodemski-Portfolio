@@ -14,8 +14,7 @@ In this project I created a Portfolio with react and deployed to a live site, yo
 
 ## Questions
 
-Please contact me for any questions you may have
-
+Please feel free to contact me for any questions you may have.
 [Email](mailto:evanfd05@gmail.com)
 
 
