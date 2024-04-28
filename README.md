@@ -6,7 +6,7 @@
 
 
 ## Description
-In this project I created a Portfolio with react and deployed to a live site, you can view it at the link above.
+In this project I created a Portfolio with react and deployed to a live site, you can view it at the link listed above.
 
 ## ScreenShot
 ![Screen Shot of Application](<src/assets/img/Screenshot 2024-02-01 215845.png>)
