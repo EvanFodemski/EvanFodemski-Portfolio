@@ -27,7 +27,7 @@ export default function About() {
   return (
     <div>
       <LoadScript
-        googleMapsApiKey="AIzaSyCAal-VvsBtnpCh4Z5N3efas6pHmmR3wrA"
+        googleMapsApiKey="Your Api key HERE"
         libraries={["maps", "marker"]}
       >
         <GoogleMap
