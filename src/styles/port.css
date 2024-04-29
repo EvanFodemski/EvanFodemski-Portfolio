@@ -1,58 +1,66 @@
-.mine {
-    text-align: center;
-    align-items: center;
-    font-size: 40px;
-    border-bottom: dotted;
-    transition: .4s ease-out;
+.portfoliemaincon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.mine:hover {
-    font-size: 35px;
+.boxesConPort {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
 }
 
-.blocks {
-    width: 100%;
-    height: 270px;
-    border: 2px solid black;
-    display:inline-table;
-    flex-direction: column;
-    transition: 0.5s ease-out;
-    margin-bottom: 5rem;
+.portbox {
+  position: relative;
+  width: 350px;
+  height: 350px; 
+  border: 2px solid black;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.c7Img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-
-.btitle {
-    height: 50px;
-    width: 100%;
-    background-color: lightgray;
-    margin-top: auto; 
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
+.imagesinport {
+  width: 100%;
+  height: 100%;
 }
 
-.blocks:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 20px;
-
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(138, 138, 138, 0.5); /* Adjust the opacity as needed */
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.svgs{
-    align-items: center;
-    align-content: center;
+.portbox:hover .overlay {
+  display: flex;
 }
 
-@media screen and (max-width: 600px) {
-    .blockCon {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .blocks {
-      width: 80%;
-    }
-  }
+.overlay-content {
+  text-align: center;
+  color: black; /* Text color */
+  font-size: 18px;
+}
+
+.porthoverhead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.innerdescport{
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+
