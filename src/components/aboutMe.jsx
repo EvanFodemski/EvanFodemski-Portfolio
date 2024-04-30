@@ -8,12 +8,12 @@ import 'leaflet/dist/leaflet.css'
 
 export default function About() {
 
-  const position = [51.505, -0.09]
+  const position = [38.8176, -104.8321]
 
   return (
     <div className="aboutcontainer">
       <div >
-        <MapContainer className="mapcontainer" center={position} zoom={13} scrollWheelZoom={false}>
+        <MapContainer className="mapcontainer" center={position} zoom={11.5} scrollWheelZoom={false}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
