@@ -35,7 +35,7 @@ export default function Portfolio() {
                 </div>
                 </a>
 
-                <a href="https://github.com/EvanFodemski/BellWork">
+                <a href="https://github.com/ltrokey/c7_recipe_builder">
                 <div className="portbox">
                     <img className="imagesinport" src={c7} alt="" />
                     <div className="overlay">

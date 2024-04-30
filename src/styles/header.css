@@ -61,9 +61,10 @@
 }
 
 .colorChange{
-    color:red;
-    font-size: 40px;
-    font-weight: bolder;
+    font-size: 35px;
+    text-decoration: underline 2px;
+    font-weight: 600;
+    color: #2E3338;
 }
 
 /* Media query for screens smaller than 600px */
