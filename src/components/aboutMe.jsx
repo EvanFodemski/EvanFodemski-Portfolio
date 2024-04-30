@@ -25,6 +25,7 @@ export default function About() {
           </Marker>
         </MapContainer>,
       </div>
+      
     </div>
   )
 
