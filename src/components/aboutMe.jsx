@@ -12,6 +12,7 @@ export default function About() {
 
   return (
     <div className="aboutcontainer">
+      
       <div >
         <MapContainer className="mapcontainer" center={position} zoom={11.5} scrollWheelZoom={false}>
           <TileLayer
@@ -25,7 +26,7 @@ export default function About() {
           </Marker>
         </MapContainer>,
       </div>
-      
+
     </div>
   )
 
