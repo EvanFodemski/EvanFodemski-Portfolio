@@ -61,10 +61,12 @@
 }
 
 .colorChange{
+
     font-size: 35px;
     text-decoration: underline 2px;
     font-weight: 600;
     color: #2E3338;
+    
 }
 
 /* Media query for screens smaller than 600px */
@@ -78,7 +80,7 @@
         align-items: center;
         float:left ;
     }
-    
+
     .logo{
         display: none
         ;
