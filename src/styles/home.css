@@ -96,22 +96,22 @@
   }
 
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
 
    
     .hello{
-      font-size: 35px;
+      font-size: 85px;
     
     }
 
     .introwords1{
-      font-size: 20px;
+      font-size: 28px;
   }
   .intro2{
-    font-size: 50px;
+    font-size: 65px;
   }
   .afull{
-    font-size: 20px;
+    font-size: 31px;
   }
   
 }

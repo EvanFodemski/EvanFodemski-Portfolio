@@ -28,6 +28,7 @@
     margin-top: 4%;
     height: 500px;
     border: 2px solid black;
+    z-index: 1;
 
 }
 
@@ -41,8 +42,8 @@
 @media screen and (max-width: 800px) {
   .p1,
   .p2 {
-    font-size: 15px;
-    max-width: 100%; /* Use 100% width for mobile */
+    font-size: 25px;
+    max-width: 100%; 
   }
 
   .p1:hover,
@@ -50,4 +51,16 @@
     font-size: 18px;
   }
 
+}
+
+@media (max-width:1024px) and (min-width:769px){
+    .mapcontainer{
+      width: 1000px;
+      margin-left: 18%;
+    }
+
+    .p1{
+      width: 1000px;
+      margin-left: 18%;
+    }
 }
