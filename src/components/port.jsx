@@ -215,20 +215,7 @@ export default function Portfolio() {
                                 <div className="gitsvg">
 
                                     {gitsvg}
-
-
-
-
-
-
-
-
                                 </div>
-
-
-
-
-
                             </div>
 
 
