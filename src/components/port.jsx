@@ -178,6 +178,84 @@ export default function Portfolio() {
                 </div>
                 </a>
 
+                <a href="https://github.com/EvanFodemski/BellWork">
+                <div className="portbox">
+                    <img className="imagesinport" src={bell} alt="" />
+                    <div className="overlay">
+                        <div className="overlay-content">
+                            <h1 className="porthoverhead">BellWork</h1>
+                            <p className="innerdescport">
+                                BellWork is a web application created entirely by me. It is a platform for workout enthusiasts to create and share workouts and workout routines.
+                            </p>
+                            <div className="gitsvg">
+                            {gitsvg}
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                </div>
+                </a>
+
+                <a href="https://github.com/EvanFodemski/BellWork">
+                <div className="portbox">
+                    <img className="imagesinport" src={bell} alt="" />
+                    <div className="overlay">
+                        <div className="overlay-content">
+                            <h1 className="porthoverhead">BellWork</h1>
+                            <p className="innerdescport">
+                                BellWork is a web application created entirely by me. It is a platform for workout enthusiasts to create and share workouts and workout routines.
+                            </p>
+                            <div className="gitsvg">
+                            {gitsvg}
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                </div>
+                </a>
+
+                <a href="https://github.com/EvanFodemski/BellWork">
+                <div className="portbox">
+                    <img className="imagesinport" src={bell} alt="" />
+                    <div className="overlay">
+                        <div className="overlay-content">
+                            <h1 className="porthoverhead">BellWork</h1>
+                            <p className="innerdescport">
+                                BellWork is a web application created entirely by me. It is a platform for workout enthusiasts to create and share workouts and workout routines.
+                            </p>
+                            <div className="gitsvg">
+                            {gitsvg}
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                </div>
+                </a>
+
+                <a href="https://github.com/EvanFodemski/BellWork">
+                <div className="portbox">
+                    <img className="imagesinport" src={bell} alt="" />
+                    <div className="overlay">
+                        <div className="overlay-content">
+                            <h1 className="porthoverhead">BellWork</h1>
+                            <p className="innerdescport">
+                                BellWork is a web application created entirely by me. It is a platform for workout enthusiasts to create and share workouts and workout routines.
+                            </p>
+                            <div className="gitsvg">
+                            {gitsvg}
+                            </div>
+                            
+                        </div>
+                    </div>
+                  
+                </div>
+                </a>
+
+                
+
 
                 
 
