@@ -9,3 +9,5 @@ export default defineConfig({
     open: true
   }
 })
+
+// Path: src/components/aboutMe.jsx
