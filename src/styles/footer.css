@@ -1,11 +1,8 @@
 .socialLinks {
     display: flex;
-    
     justify-content: space-around;
     align-items: center;
-
     cursor: pointer;
-
     margin-top: 22%;
 }
 
