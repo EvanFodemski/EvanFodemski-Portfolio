@@ -1,9 +1,25 @@
 .socialLinks {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     cursor: pointer;
     margin-top: 22%;
+}
+
+@media screen and (max-width: 1024px) {
+    .socialLinks {
+        margin-top: 75%;
+
+    }
+    
+}
+
+@media (max-width:1024px) and (min-width:769px){
+    .socialLinks {
+        margin-top: 65%;
+        justify-content: space-evenly;
+        margin-left: 32%;
+    }
 }
 
 
