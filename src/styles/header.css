@@ -104,16 +104,13 @@
         transition: 0.3s ease-out;
         text-decoration: none;
         padding: 5px;
-        
         font-size: 35px;
         font-weight: 600;
-
         color: black;
     }
 
     .desktopMenu{
         margin-left: 5%;
-
     }
     
   
