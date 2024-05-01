@@ -259,7 +259,6 @@ export default function Portfolio() {
 
                 </a>
             </div>
-            
         </div>
     );
 }
