@@ -14,6 +14,11 @@ const gitsvg = <svg width="50px" height="50px" viewBox="0 0 24 24" xmlns="http:/
 export default function Portfolio() {
     return (
         <div className="portfoliemaincon">
+            <div className="porttitlehead">
+                <h1 className="writingheadport">
+                    Projects I have done and helped complete
+                </h1>
+            </div>
             <div className="boxesConPort">
 
                 <a href="https://github.com/EvanFodemski/BellWork">
