@@ -10,4 +10,5 @@ export default defineConfig({
   }
 })
 
-// Path: src/components/aboutMe.jsx
+// Path: src/components/aboutMe.jsx 
+// Compare this snippet from src/components/aboutMe.jsx:
