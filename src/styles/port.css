@@ -14,16 +14,16 @@
 }
 
 .boxesConPort {
-  padding: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  padding: 10px;
 }
 
 .portbox {
   position: relative;
-  width: 420px;
-  height: 260px; 
+  width: 97%;
+  height: 97%; 
   border: 2px solid black;
   cursor: pointer;
   overflow: hidden;
@@ -81,4 +81,57 @@
   font-weight: 400;
   margin-top: -13px;
 }
+
+@media (max-width:1024px) and (min-width:769px){
+
+  .boxesConPort {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .writingheadport{
+    font-size: 40px;
+  }
+
+  .portbox {
+    margin-left: 12%;
+    width: 97%;
+    height: 97%; 
+  }
+
+  .innerdescport{
+    font-size: 17px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  
+    .boxesConPort {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .writingheadport{
+      font-size: 35px;
+    }
+  
+    .portbox {
+      margin-left: 0%;
+      width: 97%;
+      height: 97%; 
+    }
+  
+    .innerdescport{
+      font-size: 15px;
+    }
+
+    .writingheadport{
+      font-size: 30px;
+      font-weight: 700;
+      color: #000000;
+    }
+
+}
+
+
+
 
