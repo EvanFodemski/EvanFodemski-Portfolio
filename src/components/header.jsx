@@ -5,12 +5,12 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    
-const location = useLocation();
-console.log(location.pathname)
-// {`navItems ${location.pathname === '/' && 'colorChange'}`}
-    
-const toggleMenu = () => {
+
+    const location = useLocation();
+    console.log(location.pathname)
+    // {`navItems ${location.pathname === '/' && 'colorChange'}`}
+
+    const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
@@ -20,7 +20,7 @@ const toggleMenu = () => {
 
             {/* Desktop Menu */}
             <div className="desktopMenu">
-                <NavLink to="/" className={location.pathname === '/' ? "navItems colorChange":"navItems"}>Home</NavLink>
+                <NavLink to="/" className={location.pathname === '/' ? "navItems colorChange" : "navItems"}>Home</NavLink>
                 <NavLink to="/about" className={`navItems ${location.pathname === '/about' && 'colorChange'}`}>About</NavLink>
                 <NavLink to="/portfolio" className={`navItems ${location.pathname === '/portfolio' && 'colorChange'}`}>Portfolio</NavLink>
                 <NavLink to="/resume" className={`navItems ${location.pathname === '/resume' && 'colorChange'}`}>Resume</NavLink>
@@ -29,7 +29,7 @@ const toggleMenu = () => {
 
             {/* Mobile Menu */}
             <div className="mobileMenu">
-                <button onClick={toggleMenu} className="menuButton">&#9776; Menu</button>
+                <button onClick={toggleMenu} className="menuButton">&#9776; </button>
                 {isMenuOpen && (
                     <div className="mobileDropdown">
                         <NavLink to="/" onClick={toggleMenu} className="navItems">Home</NavLink>
@@ -40,6 +40,8 @@ const toggleMenu = () => {
                     </div>
                 )}
             </div>
+
+
         </nav>
     );
 }
