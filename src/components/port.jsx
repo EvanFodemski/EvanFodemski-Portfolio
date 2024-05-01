@@ -213,8 +213,10 @@ export default function Portfolio() {
                                 <p className="innerdescport">
                                     A ReadMe generator created with Node, used on locall installation.                                </p>
                                 <div className="gitsvg">
-                                    
+
                                     {gitsvg}
+
+
 
 
                                 </div>
