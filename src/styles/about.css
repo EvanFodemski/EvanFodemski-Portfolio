@@ -1,36 +1,41 @@
+.abtwritingcon{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
 .p1{
-    font-size: 25px;
-    max-width: 43%;
+    font-size: 30px;
     transition: 0.2s ease-out;
-
 }
 
-.p2{
-    font-size: 25px;
-    max-width: 43%;
-    transition: 0.2s ease-out;
-    margin-bottom: 5%;
-   
-}
 
 .p1:hover{
-    font-size: 27px;
-    max-width: 50%;
+    font-size: 31px;
     font-weight: 600;
 }
 
-.p2:hover{
-    font-size: 27px;
-    font-weight: 600;
-    max-width: 50%;
-}
+
 
 
 .mapcontainer{
-  
-    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+    height: 500px;
     border: 2px solid black;
 
+}
+
+.topheadabt{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 @media screen and (max-width: 800px) {
